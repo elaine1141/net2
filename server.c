@@ -183,22 +183,6 @@ void *pthread_service(void* sfd)    {
 
 }
 
-
-/**/
-// int SendToClient(int fd,char* buf,int Size) {
-//     int i;
-//     for(i=0;i<Max;i++){
-//         printf("fdt[%d]=%d\n",i,fdt[i]);
-//         if((fdt[i]!=0)&&(fdt[i]!=fd)){
-//             send(fdt[i],buf,Size,0); 
-//             printf("send message to %d\n",fdt[i]);
-//         }
-//     }   
-//     return 0;
-
-
-// }
-
 int  main()  
 { 
     int listenfd, connectfd;    
